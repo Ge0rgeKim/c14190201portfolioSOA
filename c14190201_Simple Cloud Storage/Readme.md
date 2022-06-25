@@ -18,7 +18,7 @@ POST /user/register
 ```
 
 #### add user (user password below 8 characters)
-![Response](https://img.shields.io/badge/Bad%20Request-400-red)
+![Response](https://img.shields.io/badge/Bad%20Request-404-red)
 ```bash
 {
     "status": "error",
@@ -27,7 +27,7 @@ POST /user/register
 ```
 
 #### add user (user username already exist)
-![Response](https://img.shields.io/badge/Bad%20Request-400-red)
+![Response](https://img.shields.io/badge/Bad%20Request-404-red)
 ```bash
 {
     "status": "error",
@@ -53,7 +53,7 @@ POST /user/register
 ```
 
 #### add user (user password below 8 characters)
-![Response](https://img.shields.io/badge/Bad%20Request-400-red)
+![Response](https://img.shields.io/badge/Bad%20Request-404-red)
 ```bash
 {
     "status": "error",
@@ -62,7 +62,7 @@ POST /user/register
 ```
 
 #### add user (user username already exist)
-![Response](https://img.shields.io/badge/Bad%20Request-400-red)
+![Response](https://img.shields.io/badge/Bad%20Request-404-red)
 ```bash
 {
     "status": "error",
