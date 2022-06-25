@@ -1,4 +1,4 @@
-## REST API Endpoint
+### REST API Endpoint
 ```bash
 GET /api/prime/<int:index>
 ```
@@ -7,7 +7,7 @@ GET /api/prime/<int:index>
 GET /api/prime/palindrome/<int:index>
 ```
 
-## Technologies Used in Simple Calculator Services:
+### Technologies Used in Simple Calculator Services:
 - Celery
 - RabbitMQ
 - Python 3
